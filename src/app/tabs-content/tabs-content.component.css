@@ -1,0 +1,19 @@
+:host{
+    padding-bottom: 100px;
+}
+
+mat-tab{
+    height: 400px;
+}
+
+
+
+:host{
+    display: block;
+    width: 100%;
+}
+
+.img-proyecto{
+    width: 200px;
+}
+

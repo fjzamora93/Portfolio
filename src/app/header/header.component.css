@@ -1,0 +1,35 @@
+ul li{
+    list-style-type: none;
+}
+
+
+header {
+    text-align: center;
+    margin: 3rem auto;
+  }
+  
+  header img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+    background-color: transparent;
+  }
+  
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  mat-card{
+    margin: 2rem auto;
+    max-width: 80vw;
+  }
+
+mat-card-header {
+    text-align: center;
+    margin: auto;
+}
+
+  mat-card-actions{
+    display: flex;
+    justify-content: center;
+  }
