@@ -422,7 +422,7 @@ nav ul li ul li, .nav ul li ul li:hover {
     margin: 5px;
 }
 
-.rrss li a img{
+.img-miniatura{
     max-width: 30px;
     height: auto;
     opacity: 0.6;

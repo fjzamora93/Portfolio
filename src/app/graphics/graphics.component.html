@@ -1,15 +1,53 @@
+<section id="skills" class="bloque-blanco">
+    <mat-card>
 
-<mat-card>
-    <mat-card-content>
-        @for (graphic of graphicService.graphics; track graphic._id; let idx = $index){
-            
+        <mat-card-content>
+            <h2>Lenguajes de programación</h2>
+            <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> Python
+            <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> Javascript
+            <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> Typescript
+            <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> Java
+        </mat-card-content>
 
-            <div class="progress-container">
-                <p>{{ graphic.title }}</p>
-                <div class="progress-bar">
-                    <app-progress-bar [title]="graphic.title" [delay]="idx*200" [targetValue]="graphic.percent" />
+
+        <mat-card-content>
+            <h2>Backend & Data Science</h2>
+            @for (graphic of graphicService.backendGraphics; track graphic._id; let idx = $index){
+                
+
+                <div class="progress-container">
+                    <p>{{ graphic.title }}</p>
+                    <div class="progress-bar">
+                        <app-progress-bar [title]="graphic.title" [delay]="idx*200" [targetValue]="graphic.percent" />
+                    </div>
                 </div>
-            </div>
-        }
-    </mat-card-content>
-</mat-card>
+            }
+        </mat-card-content>
+
+    </mat-card>
+
+    <mat-card>
+        <mat-card-content>
+            <mat-card-content>
+                <h2> FrontEnd & Design Skills</h2>
+                <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> HTML
+                <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> CSS
+                <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> Adoble Illustrator
+                <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> Adobe Indesign
+            </mat-card-content>
+
+
+            <h2> FrontEnd & UI/UX </h2>
+            @for (graphic of graphicService.frontendGraphics; track graphic._id; let idx = $index){
+                
+                <div class="progress-container">
+                    <p>{{ graphic.title }}</p>
+                    <div class="progress-bar">
+                        <app-progress-bar [title]="graphic.title" [delay]="idx*200" [targetValue]="graphic.percent" />
+                    </div>
+                </div>
+            }
+        </mat-card-content>
+    </mat-card>
+
+</section>

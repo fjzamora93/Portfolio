@@ -16,11 +16,21 @@ export class GraphicsService {
     private apiUrl = environment.apiUrl + '/posts';
     public graphics: Graphics[] = graphicsData;
 
+    public backendGraphics: Graphics[] = [];
+    public frontendGraphics: Graphics[] = [];
+    public languagesGraphics: Graphics[] = [];
+
+
+
     //! ADAPTACIÓN DEL CÓDIGO EN CASO DE TRABAJAR CON BBDD
     private postsUpdated = new Subject<Graphics[]>();
     private newPosts: Graphics[] = [];
     
-    constructor(private http: HttpClient, private csrfService: CsrfService) {}
+    constructor(private http: HttpClient, private csrfService: CsrfService) {
+        this.backendGraphics = this.graphics.filter(graphic => graphic.category === 'backend');
+        this.frontendGraphics = this.graphics.filter(graphic => graphic.category === 'frontend');
+        this.languagesGraphics = this.graphics.filter(graphic => graphic.category === 'languages');
+    }
 
     
     getPosts(): void {
