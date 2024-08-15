@@ -1,10 +1,34 @@
 [
     {
-        "title": "Software Engineer",
-        "company": "Google",
-        "location": "Mountain View, CA",
-        "date": "2019-01",
-        "description": "Worked on the Google Search team to improve search results for users.",
-        "imgUrl": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        "title": "Diseño web",
+        "company": "Laboratorio de Procesos Acoplados Biofísicos (LaPab)",
+        "location": "Valdivia, Chile",
+        "date": "2024/06 - 2025/01",
+        "description": "Diseño web corporativo para el laboratorio.",
+        "imgUrl": "img/logos/logo-lapab-black.png"
+    },
+    {
+        "title": "Diseño CMS",
+        "company": "El Gato barista",
+        "location": "Madrid, España",
+        "date": "2019/06 - 2021/01",
+        "description": "Fundador y creador de contenido para la guía del café de especialidad 'El Gato Barista'.",
+        "imgUrl": "img/logos/elgatobarista.png"
+    },
+    {
+        "title": "Periodista y creador de contenido",
+        "company": "Revista Hostelvending",
+        "location": "Málaga, España",
+        "date": "2017/06 - 2019/01",
+        "description": "Redacción, maquetación y creación de contenido para la revista especializada Hostelvending.",
+        "imgUrl": "img/logos/hostelvending-2.png"
+    },
+    {
+        "title": "Prácticas",
+        "company": "Complejo Humo",
+        "location": "Málaga, España",
+        "date": "2017/06 - 2019/01",
+        "description": "Creación de página web para el Complejo Humo (Málaga) a través del CMS Wordpress.",
+        "imgUrl": "img/logos/complejo-humo.jpg"
     }
 ]
