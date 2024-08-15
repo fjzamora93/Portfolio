@@ -25,16 +25,16 @@ export interface PeriodicElement {
 export class TableListComponent {
     @Input({required: true}) dataFile!: string;
 
-    displayedColumns: string[] = ['center', 'date', 'id', 'imgUrl', 'title'];
+    displayedColumns: string[] = ['imgUrl', 'title', 'center', 'date', 'title'];
     dataSource = ELEMENT_DATA;
 
     constructor(private dataService: DataService) {}
 
     ngOnInit(): void {
         if (this.dataFile) {
-            console.log(this.dataFile);
             this.dataService.getData(this.dataFile).subscribe(data => {
                 this.dataSource = data;
+                this.displayedColumns = Object.keys(data[0]);
                 console.log(this.dataSource);
             });
         }

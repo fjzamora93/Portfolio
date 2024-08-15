@@ -36,74 +36,10 @@
     <app-table-list dataFile="formationData"/>
 
 
-    <section id="experiencia" class="bloque-blanco">
-        <h2>Experiencia - Trayectoria profesional</h2>
-
-        <div class="proyectos">
-            <img src="img/logos/logo-lapab-black.png" alt="uma" class="img-exp">
-            <h3> <b>Laboratorio de Procesos Acoplados Biofísicos</b> </h3>
-            <p> Diseño web 2024-actualidad </p>
-            <div>
-                <p class="texto">
-                    Diseño de la web corporativa para el laboratorio de investigación antártica para el año 2024.
-                </p>
-            </div>
-        </div>
-
-        <div class="proyectos">
-            <img src="img/logos/elgatobarista.png" alt="uma" class="img-exp">
-            <h3> <b>El Gato Barista</b> </h3>
-            <p> Fundador y content creator 2019-2021 </p>
-            <div>
-                <p class="texto">
-                    Creación de la guía digital de café de especialidad. Blogging especializado en el café y maquetación web.
-                </p>
-            </div>
-        </div>
-
-        <div class="proyectos">
-            <img src="img/logos/hostelvending-2.png" alt="uma" class="img-exp">
-            <h3> <b>Revista Hostelvending </b></h3>
-            <p> Content Creator 2017-2019 </p>
-            <div>
-                <p class="texto">
-                    Redacción, maquetación y creación de contenido para la revista de hostelería "Hostelvending". 
-                </p>
-            </div>
-        </div>
-
-        <div class="proyectos">
-            <img src="img/logos/complejo-humo.jpg" alt="uma" class="img-exp">
-            <h3> <b>Complejo Humo </b></h3>
-            <p> Diseño web CMS 2016 </p>
-            <div>
-                <p class="texto">
-                    Creación de página web para el Complejo Humo (Málaga) a través del CMS Wordpress.
-                </p>
-            </div>
-        </div>
-    </section>
+    <app-experience/>
 
     <section class="dibujo-hello">
-        <form method="post" id="" label="" action="mailto:fjzamora93@gmail.com">
-            <fieldset><legend> ¿Hablamos? </legend>
-                <p>Nombre: <input type="text"> </p>
-                <p>Email: <input type="email"> </p>
-                <p>¿Cómo has llegado aquí? 
-                    <select id="selector">
-                        <option value="1"> Linkedin </option>
-                        <option value="2"> Instagram </option>
-                        <option value="3"> Recomendación </option>
-                        <option value="4"> Otro </option>
-                    </select></p>
-                <div>
-                    <p id="pregunta-oculta" style="display:none">¿Cuál?:</p>  
-                    <input type="text" id="input-oculto" style="display:none"> 
-                </div>
-                <textarea id="texto_grande" name="texto_grande" rows="4" cols="20"  placeholder="Hey!"></textarea><br>
-                <input type="submit" value="Enviar">
-            </fieldset>
-        </form>
+        <app-step-form/>
     </section>
 </body>
 
@@ -117,49 +53,3 @@
     </div>
 
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<app-header/>
-
-<div class="container">
-    <h2>Plantilla de Gráficas</h2>
-    <app-graphics/>
-</div>
-
-<div class="container">
-    <h2>Plantilla de galería de imágenes</h2>
-    <app-gallery/>
-</div>
-
-
-
-
-<div class="container">
-    <h2> Plantilla de PostList: </h2>
-    <p> Para que la creación y el fetch de post funcione se requiere una conexión a una API desde la que obtener los datos y mandar las peticiones</p>
-    <p> Recuerda incluir en environments la configuración para tu API tanto en desarrollo como en producción. </p>
-    <app-post-create/>
-    <app-post-list/>
-</div>
-
-<h2> Plantilla de calculadora: </h2>
-<app-user-input (calculate)="onCalculateInvestment($event)"/>
-
-<app-investment-result [investment]="investment"/>
-
-

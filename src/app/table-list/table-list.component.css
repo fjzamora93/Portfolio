@@ -1,0 +1,14 @@
+#formacion {
+    padding: 20px 10% 20px;
+}
+.img-miniatura {
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantén la proporción de la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    vertical-align: middle; /* Alinea la imagen al centro vertical */
+  }
+  
+  .celda {
+   
+    align-items: center; /* Alinea verticalmente al centro */
+  }

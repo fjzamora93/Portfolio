@@ -11,6 +11,8 @@ import { GraphicsComponent } from "./graphics/graphics.component";
 import { NavBarComponent } from "./nav-bar/nav-bar.component";
 import { TabsContentComponent } from "./tabs-content/tabs-content.component";
 import { TableListComponent } from "./table-list/table-list.component";
+import { StepFormComponent } from './step-form/step-form.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +21,8 @@ import { TableListComponent } from "./table-list/table-list.component";
   styleUrl: './app.component.css',
   imports: [HeaderComponent, InvestmentResultComponent,
     UserInputComponent, PostCreateComponent, PostListComponent, TabsContentComponent,
-    GalleryComponent, GraphicsComponent, NavBarComponent, NavBarComponent, TabsContentComponent, TableListComponent]
+    GalleryComponent, GraphicsComponent, NavBarComponent, NavBarComponent, TabsContentComponent, TableListComponent,
+    StepFormComponent, ExperienceComponent]
 })
 
 export class AppComponent {
