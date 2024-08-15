@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Formation 1",
+        "center": "Centro 1",
+        "date": "2021-01-01",
+        "imgUrl": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 2,
+        "title": "Formation 2",
+        "center": "Centro 2",
+        "date": "2021-01-02",
+        "imgUrl": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 3,
+        "title": "Formation 3",
+        "center": "Centro 3",
+        "date": "2021-01-03",
+        "imgUrl": "https://via.placeholder.com/150"
+    }
+]

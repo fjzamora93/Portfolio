@@ -10,6 +10,7 @@ import { GalleryComponent } from "./gallery/gallery.component";
 import { GraphicsComponent } from "./graphics/graphics.component";
 import { NavBarComponent } from "./nav-bar/nav-bar.component";
 import { TabsContentComponent } from "./tabs-content/tabs-content.component";
+import { TableListComponent } from "./table-list/table-list.component";
 
 @Component({
   selector: 'app-root',
@@ -18,7 +19,7 @@ import { TabsContentComponent } from "./tabs-content/tabs-content.component";
   styleUrl: './app.component.css',
   imports: [HeaderComponent, InvestmentResultComponent,
     UserInputComponent, PostCreateComponent, PostListComponent, TabsContentComponent,
-    GalleryComponent, GraphicsComponent, NavBarComponent, NavBarComponent, TabsContentComponent]
+    GalleryComponent, GraphicsComponent, NavBarComponent, NavBarComponent, TabsContentComponent, TableListComponent]
 })
 
 export class AppComponent {

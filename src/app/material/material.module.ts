@@ -8,6 +8,7 @@ import { MatList, MatListItem } from '@angular/material/list';
 import { MatDialogActions, MatDialogContent, MatDialogClose } from '@angular/material/dialog';
 import { MatGridAvatarCssMatStyler, MatGridList, MatGridTile } from '@angular/material/grid-list';
 import { MatTab, MatTabBody, MatTabGroup } from '@angular/material/tabs';
+import {MatTableModule} from '@angular/material/table';
 
 
 //Gráficas
@@ -28,7 +29,7 @@ import {MatRadioModule} from '@angular/material/radio';
     MatDialogActions, MatDialogContent, MatDialogClose,
     MatGridAvatarCssMatStyler, MatGridList, MatGridTile, //GALERÍA DE IMÁGENES
     MatProgressBarModule, MatSliderModule, FormsModule, MatRadioModule, MatSlider ,
-    MatTab, MatTabBody, MatTabGroup,
+    MatTab, MatTabBody, MatTabGroup, 
     
   ],
   exports: [
@@ -41,7 +42,7 @@ import {MatRadioModule} from '@angular/material/radio';
     MatDialogActions, MatDialogContent, MatDialogClose,
     MatGridAvatarCssMatStyler, MatGridList, MatGridTile,
     MatProgressBarModule, MatSliderModule, FormsModule, MatRadioModule, MatSlider ,
-    MatTab, MatTabBody, MatTabGroup,
+    MatTab, MatTabBody, MatTabGroup, 
   ]
 })
 export class MaterialModule { }
