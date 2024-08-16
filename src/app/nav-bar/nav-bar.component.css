@@ -1,0 +1,40 @@
+
+#menu-movil{
+    display: none;
+}
+
+.material-icons{
+    margin-right: 10px;
+}
+
+nav{
+    height: 70px;
+}
+
+@media (max-width: 700px) {
+
+    .menu-button-movil:hover{
+        width: 2.3em;
+        height: 2.3em;
+        background-color: rgb(111, 179, 196);
+        opacity: 0.8;
+    }
+   
+    i{
+        font-size: 1.5em;
+        color: rgb(58, 53, 53);
+    }
+
+    i:hover{
+        color: rgb(0, 0, 0);
+    }
+
+    #menu-movil{
+        display: block;
+
+    }
+
+    #menu-pc{
+        display: None;
+    }
+}

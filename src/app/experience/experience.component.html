@@ -1,13 +1,16 @@
 
+<h2> Experiencia profesional </h2>
+
 @for (data of dataList; track data.title){
-        <div class="proyectos">
-            <img src="{{ data.imgUrl }}" alt="uma" class="img-exp">
-            <h3> <b>{{ data.title }}</b> </h3>
-            <p> {{ data.date }} </p>
-            <div>
-                <p class="texto">
-                    {{ data.description }}
-                </p>
-            </div>
+    <div class="proyectos">
+        <img src="{{ data.imgUrl }}" alt="uma" class="img-exp">
+        <h3> <b>{{ data.title }}</b> </h3>
+        
+        <div>
+            <p class="texto">
+                <span> ({{ data.date }}) </span>
+                {{ data.description }} 
+            </p>
         </div>
+    </div>
 }

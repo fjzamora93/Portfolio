@@ -4,7 +4,7 @@
         "company": "Laboratorio de Procesos Acoplados Biofísicos (LaPab)",
         "location": "Valdivia, Chile",
         "date": "2024/06 - 2025/01",
-        "description": "Diseño web corporativo para el laboratorio.",
+        "description": "Diseño web para el Laboratorio de Procesos Acoplados Biofísicos en la Universidad Austral de Chile utilizando Angular y Express",
         "imgUrl": "img/logos/logo-lapab-black.png"
     },
     {
@@ -12,7 +12,7 @@
         "company": "El Gato barista",
         "location": "Madrid, España",
         "date": "2019/06 - 2021/01",
-        "description": "Fundador y creador de contenido para la guía del café de especialidad 'El Gato Barista'.",
+        "description": "Fundador y creador de contenido para la guía del café de especialidad 'El Gato Barista'. Diseño y desarrollo de la web en WordPress.",
         "imgUrl": "img/logos/elgatobarista.png"
     },
     {
@@ -20,15 +20,15 @@
         "company": "Revista Hostelvending",
         "location": "Málaga, España",
         "date": "2017/06 - 2019/01",
-        "description": "Redacción, maquetación y creación de contenido para la revista especializada Hostelvending.",
+        "description": "Redacción, maquetación física, edición digital y creación de contenido para la revista especializada en el canal horeca Hostelvending.",
         "imgUrl": "img/logos/hostelvending-2.png"
     },
     {
-        "title": "Prácticas",
+        "title": "Prácticas de Empresa",
         "company": "Complejo Humo",
         "location": "Málaga, España",
         "date": "2017/06 - 2019/01",
-        "description": "Creación de página web para el Complejo Humo (Málaga) a través del CMS Wordpress.",
+        "description": "Comunicación corporativa para el Complejo Humo (Málaga). Realización de campañas de difusión, creación de contenido y diseño web WordPress.",
         "imgUrl": "img/logos/complejo-humo.jpg"
     }
 ]

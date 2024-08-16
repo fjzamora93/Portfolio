@@ -12,6 +12,10 @@ mat-card-content{
     margin: 20px auto;
 }
 
+mat-divider{
+    margin: 20px auto;
+}
+
 @media (max-width: 700px) {
     mat-card {
         width: 100%;

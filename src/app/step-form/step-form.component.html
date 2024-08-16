@@ -1,37 +1,70 @@
 
+  <mat-stepper linear #stepper>
+
+    <!-- SETP NÚMERO 1 -->
+        <mat-step [stepControl]="firstFormGroup" >
+            <form [formGroup]="firstFormGroup">
+                <ng-template matStepLabel>Introduce tu nombre</ng-template>
+                <mat-form-field>
+                    <mat-label>Nombre</mat-label>
+                    <input matInput formControlName="firstCtrl" placeholder="Nombre completo y compañía (opcional)" required>
+                </mat-form-field>
+                <div>
+                    <button mat-button matStepperNext id="boton-next">
+                        <h4><i class="material-icons">keyboard_double_arrow_right</i></h4>
+                    </button>
+                </div>
+            </form>
+        </mat-step>
+
+    <!-- STEP NÚMERO 2 -->
+        <mat-step [stepControl]="secondFormGroup" >
+            <form [formGroup]="secondFormGroup">
+                <ng-template matStepLabel>Escribe tu dirección de correo electrónico</ng-template>
+                <mat-form-field>
+                    <mat-label>Address</mat-label>
+                    <input 
+                        type="email"
+                        matInput formControlName="secondCtrl" 
+                        placeholder="ejemplo@ejemplo.com"
+                        required>
+                </mat-form-field>
+                <div>
+                    
+                    <button mat-button matStepperPrevious id="boton-next">
+                        <h4><i class="material-icons">keyboard_double_arrow_left</i></h4>
+                    </button>
+
+                    <button mat-button matStepperNext id="boton-next">
+                        <h4><i class="material-icons">keyboard_double_arrow_right</i></h4>
+                    </button>
+
+
+                </div>
+            </form>
+        </mat-step>
+
+    <!-- STEP NÚMERO 3 Y FINALIZACIÓN-->
+        <mat-step>
+        <ng-template matStepLabel>¿Hablamos?</ng-template>
+
+        <mat-form-field>
+            <mat-label>Mensaje</mat-label>
+            <input 
+                type="placeholder"
+                matInput formControlName="thirdCtrl" 
+                placeholder="Escribe aquí tu mensaje"
+                required>
+        </mat-form-field>
+
+        <div>
+            <button mat-button matStepperPrevious id="boton-next">
+                <h4><i class="material-icons">keyboard_double_arrow_left</i></h4>
+            </button>
+
+            <button mat-button type="submit">Enviar</button>
+        </div>
+        </mat-step>
+
+  </mat-stepper>
   
-  <mat-vertical-stepper [linear]="false" #stepper animationDuration="500">
-    <mat-step [stepControl]="firstFormGroup">
-      <form [formGroup]="firstFormGroup">
-        <ng-template matStepLabel>Fill out your name</ng-template>
-        <mat-form-field>
-          <input matInput placeholder="Last name, First name" formControlName="firstCtrl" required>
-        </mat-form-field>
-
-        <div>
-          <button mat-button matStepperNext>Next</button>
-        </div>
-      </form>
-    </mat-step>
-
-    <mat-step [stepControl]="secondFormGroup">
-      <form [formGroup]="secondFormGroup">
-        <ng-template matStepLabel>Fill out your address</ng-template>
-        <mat-form-field>
-          <input matInput placeholder="Address" formControlName="secondCtrl" required>
-        </mat-form-field>
-        <div>
-          <button mat-button matStepperPrevious>Back</button>
-          <button mat-button matStepperNext>Enviar!</button>
-        </div>
-      </form>
-    </mat-step>
-
-    <mat-step>
-      <ng-template matStepLabel>Done</ng-template>
-      ¿Hablamos?
-      <div>
-        <button mat-button matStepperPrevious>Enviar</button>
-      </div>
-    </mat-step>
-  </mat-vertical-stepper>

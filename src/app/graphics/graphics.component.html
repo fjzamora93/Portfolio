@@ -3,14 +3,29 @@
 
         <mat-card-content>
             <h2>Lenguajes de programación</h2>
-            <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> Python
-            <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> Javascript
-            <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> Typescript
-            <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> Java
-        </mat-card-content>
+            <figure id="figure-formation" style="display: inline-block; margin:10px;">
+                <img src="img/logos/python-logo.png" alt="python" class="img-miniatura">
+                <figcaption>Python</figcaption>
+            </figure>
 
+            <figure id="figure-formation" style="display: inline-block; margin:10px;">
+                <img src="img/logos/javascript-logo.png" alt="python" class="img-miniatura">
+                <figcaption>Javascript</figcaption>
+            </figure>
 
-        <mat-card-content>
+            <figure id="figure-formation" style="display: inline-block; margin:10px;">
+                <img src="img/logos/typescript-logo.png" alt="illustrator" class="img-miniatura">
+                <figcaption>Typescript</figcaption>
+            </figure>
+
+            <figure id="figure-formation" style="display: inline-block; margin:10px;">
+                <img src="img/logos/java-logo.png" alt="figma" class="img-miniatura">
+                <figcaption>Java</figcaption>
+            </figure>
+        
+        <mat-divider/> 
+
+        
             <h2>Backend & Data Science</h2>
             @for (graphic of graphicService.backendGraphics; track graphic._id; let idx = $index){
                 
@@ -28,14 +43,30 @@
 
     <mat-card>
         <mat-card-content>
-            <mat-card-content>
-                <h2> FrontEnd & Design Skills</h2>
-                <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> HTML
-                <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> CSS
-                <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> Adoble Illustrator
-                <img src="img/logos/python-logo.png" alt="python" class="img-miniatura"> Adobe Indesign
-            </mat-card-content>
+      
+            <h2> FrontEnd & Design Skills</h2>
+                
+            <figure id="figure-formation" style="display: inline-block; margin:10px;">
+                <img src="img/logos/html-logo.svg" alt="python" class="img-miniatura">
+                <figcaption>HTML</figcaption>
+            </figure>
 
+            <figure id="figure-formation" style="display: inline-block; margin:10px;">
+                <img src="img/logos/css-logo.png" alt="python" class="img-miniatura">
+                <figcaption>CSS</figcaption>
+            </figure>
+
+            <figure id="figure-formation" style="display: inline-block; margin:10px;">
+                <img src="img/logos/illustrator-logo.png" alt="illustrator" class="img-miniatura">
+                <figcaption>Illustrator</figcaption>
+            </figure>
+
+            <figure id="figure-formation" style="display: inline-block; margin:10px;">
+                <img src="img/logos/photoshop-logo.jpg" alt="figma" class="img-miniatura">
+                <figcaption>Photoshop</figcaption>
+            </figure>
+
+        <mat-divider/>
 
             <h2> FrontEnd & UI/UX </h2>
             @for (graphic of graphicService.frontendGraphics; track graphic._id; let idx = $index){
@@ -51,3 +82,6 @@
     </mat-card>
 
 </section>
+
+
+

@@ -16,6 +16,7 @@ import {ProgressBarMode, MatProgressBarModule} from '@angular/material/progress-
 import {MatSlider, MatSliderModule} from '@angular/material/slider';
 import {FormsModule} from '@angular/forms';
 import {MatRadioModule} from '@angular/material/radio';
+import { MatDivider } from '@angular/material/divider';
 
 
 @NgModule({
@@ -29,7 +30,7 @@ import {MatRadioModule} from '@angular/material/radio';
     MatDialogActions, MatDialogContent, MatDialogClose,
     MatGridAvatarCssMatStyler, MatGridList, MatGridTile, //GALERÍA DE IMÁGENES
     MatProgressBarModule, MatSliderModule, FormsModule, MatRadioModule, MatSlider ,
-    MatTab, MatTabBody, MatTabGroup, 
+    MatTab, MatTabBody, MatTabGroup, MatDivider,
     
   ],
   exports: [
@@ -42,7 +43,7 @@ import {MatRadioModule} from '@angular/material/radio';
     MatDialogActions, MatDialogContent, MatDialogClose,
     MatGridAvatarCssMatStyler, MatGridList, MatGridTile,
     MatProgressBarModule, MatSliderModule, FormsModule, MatRadioModule, MatSlider ,
-    MatTab, MatTabBody, MatTabGroup, 
+    MatTab, MatTabBody, MatTabGroup, MatDivider,
   ]
 })
 export class MaterialModule { }

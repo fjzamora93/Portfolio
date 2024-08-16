@@ -1,0 +1,20 @@
+#figure-formation {
+    display: inline!important;
+    margin:0px;
+}
+
+#boton-next{
+    width: 40px;
+    height: 60px;
+    border-radius: 100%;
+    margin:0px 20px 0px;
+}
+
+#boton-next:hover {
+    background-color: rgb(178, 177, 177);
+}
+
+#boton-next h4 {
+    color: white;
+    margin: auto;
+}
