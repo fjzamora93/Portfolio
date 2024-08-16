@@ -18,3 +18,19 @@
     color: white;
     margin: auto;
 }
+
+mat-form-field {
+    width: 100%; /* Hace que el campo ocupe todo el ancho disponible */
+    margin-bottom: 16px; /* Espacio entre los campos */
+  }
+  
+textarea {
+    min-height: 150px; /* Altura mínima para el textarea */
+    
+  }
+
+  
+
+  #matstep {
+    width: 600px;
+  }
