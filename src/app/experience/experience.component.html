@@ -1,16 +1,39 @@
 
-<h2> Experiencia profesional </h2>
+<section>
 
-@for (data of dataList; track data.title){
-    <div class="proyectos">
-        <img src="{{ data.imgUrl }}" alt="exp" class="img-exp">
-        <h3> <b>{{ data.title }}</b> </h3>
+    <h2> Experiencia profesional </h2>
+
+    <mat-stepper orientation="vertical" #stepper>
+
+        <ng-template matStepperIcon="edit">
+            <mat-icon>business_center</mat-icon>
+        </ng-template>
+    
+        @for (data of dataList; track data.title){
+            <mat-step>
+                <ng-template matStepLabel>
+                    {{ data.title }}
+                </ng-template>
+                <div class="proyectos">
+                    <img src="{{ data.imgUrl }}" alt="exp" class="img-exp">
+                    <h3> <b>{{ data.subtitle }}</b> </h3>
+                    
+                    <div>
+                        <p class="texto">
+                            <span> ({{ data.date }}) </span>
+                            {{ data.description }} 
+                        </p>
+                    </div>
+                </div>
+            </mat-step>
+        }
+    
         
-        <div>
-            <p class="texto">
-                <span> ({{ data.date }}) </span>
-                {{ data.description }} 
-            </p>
-        </div>
-    </div>
-}
+          
+    </mat-stepper>    
+</section>
+
+
+
+
+  

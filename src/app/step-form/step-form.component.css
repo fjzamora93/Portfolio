@@ -1,3 +1,5 @@
+
+
 #figure-formation {
     display: inline!important;
     margin:0px;
@@ -37,4 +39,12 @@ textarea {
 
   .send-button{
     background-color: #76c7c0;
+  }
+
+
+  @media (max-width: 700px) {
+    #matstep {
+        width: 100%;
+      }
+
   }

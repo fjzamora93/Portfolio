@@ -1,6 +1,7 @@
 [
     {
-        "title": "Diseño web",
+        "title": "Web Designer & Developer",
+        "subtitle": "Diseño de aplicación web y portal digital para el laboratorio",
         "company": "Laboratorio de Procesos Acoplados Biofísicos (LaPab)",
         "location": "Valdivia, Chile",
         "date": "2024/06 - 2025/01",
@@ -8,7 +9,8 @@
         "imgUrl": "img/logos/logo-lapab-black.png"
     },
     {
-        "title": "Diseño CMS",
+        "title": "Diseñador CMS",
+        "subtitle": "Diseño Wordpress y creación de contenido",
         "company": "El Gato barista",
         "location": "Madrid, España",
         "date": "2019/06 - 2021/01",
@@ -16,7 +18,8 @@
         "imgUrl": "img/logos/elgatobarista.png"
     },
     {
-        "title": "Periodista y creador de contenido",
+        "title": "Jornalist & Content Creator",
+        "subtitle": "Redactor y creador de contenido para la revista Hostelvending",
         "company": "Revista Hostelvending",
         "location": "Málaga, España",
         "date": "2017/06 - 2019/01",
@@ -24,7 +27,8 @@
         "imgUrl": "img/logos/hostelvending-2.png"
     },
     {
-        "title": "Prácticas de Empresa",
+        "title": "Community Manager",
+        "subtitle": "Comunicación corporativa y diseño web",
         "company": "Complejo Humo",
         "location": "Málaga, España",
         "date": "2017/06 - 2019/01",
