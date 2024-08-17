@@ -13,6 +13,7 @@ import { TabsContentComponent } from "./tabs-content/tabs-content.component";
 import { TableListComponent } from "./table-list/table-list.component";
 import { StepFormComponent } from './step-form/step-form.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +23,7 @@ import { ExperienceComponent } from './experience/experience.component';
   imports: [HeaderComponent, InvestmentResultComponent,
     UserInputComponent, PostCreateComponent, PostListComponent, TabsContentComponent,
     GalleryComponent, GraphicsComponent, NavBarComponent, NavBarComponent, TabsContentComponent, TableListComponent,
-    StepFormComponent, ExperienceComponent]
+    StepFormComponent, ExperienceComponent, FooterComponent]
 })
 
 export class AppComponent {

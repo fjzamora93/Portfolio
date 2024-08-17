@@ -34,3 +34,7 @@ textarea {
   #matstep {
     width: 600px;
   }
+
+  .send-button{
+    background-color: #76c7c0;
+  }

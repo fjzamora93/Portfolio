@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Rol Generator App",
+        "center": "Personal",
+        "description": "La aplicación para la generación aleatoria de escenarios para juegos de rol",
+        "date": "2023",
+        "imgUrl": "img/proyect-1.jpg"
+    },
+    {
+        "title": "Marilo's Bakery",
+        "center": "Aplicación web para la gestión de recetas online",
+        "description": "Comparte, edita y comenta recetas de cocina con otros usuarios.",
+        "date": "2024",
+        "imgUrl": "img/proyect-2.jpg"
+    },
+    {
+        "title": "LaPAB Landing Page",
+        "center": "LaPAB: Laboratorio de Procesos Acoplados Biofísicos",
+        "description": "Landing page oficial del Laboratorio de Procesos Acoplados Biofísicos.",
+        "date": "2024",
+        "imgUrl": "img/proyect-3.jpg"
+    },{
+        "title": "Rol Generator App",
+        "center": "Personal",
+        "description": "Aplicación para la generación aleatoria de escenarios para juegos de rol",
+        "date": "2023",
+        "imgUrl": "img/proyect-1.jpg"
+    },
+    {
+        "title": "Marilo's Bakery",
+        "center": "Aplicación web para la gestión de recetas online",
+        "description": "Aplicación web para la gestión de recetas online con la posibilidad de compartir y comentar recetas entre distintos usuarios registrados en la aplicación.",
+        "date": "2024",
+        "imgUrl": "img/proyect-2.jpg"
+    },
+    {
+        "title": "LaPAB Landing Page",
+        "center": "LaPAB: Laboratorio de Procesos Acoplados Biofísicos",
+        "description": "Portal web para el Laboratorio de Procesos Acoplados Biofísicos. Landing page con información sobre el laboratorio y sus investigaciones, con un servicio de backend para la subida de papers, pósters e investigaciones por parte de los usuarios autentificados.",
+        "date": "2024",
+        "imgUrl": "img/proyect-3.jpg"
+    }
+]

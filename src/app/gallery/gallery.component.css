@@ -1,12 +1,39 @@
-.custom-card {
-    max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
-    margin: 20px auto; /* Centra la caja horizontalmente y añade margen superior e inferior */
-    padding: 16px; /* Añade relleno interno */
-    background-color: #f5f5f5; /* Color de fondo suave */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
-  }
-  
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 20px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Añade una transición a la imagen */
+}
+
+.grid-item p {
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    padding: 5px 10px 10px 0px;
+    transition: transform 0.3s ease; /* Añade una transición al párrafo */
+    position: relative; /* Necesario para que el movimiento sea relativo a su posición original */
+}
+
+.grid-item:hover p {
+    transform: translateY(-30px); /* Mueve el párrafo hacia arriba cuando se pasa el cursor por la imagen */   
+}
+
+
+.grid-item:hover{
+    cursor: pointer;
+    cursor: url("../../../public/img/icons/target_50.png"), auto;
+}
+
 
 .nav-button {
     width: 40px;
@@ -25,20 +52,6 @@
     float:right;
 }
   
-.galeria{
-    width: 80%;
-    margin: auto;
-    display: inline;
-}
-
-mat-card-content {
-    font-size: 16px; /* Ajusta el tamaño de la fuente */
-    color: #333; /* Color del texto */
-  }
 
 
-mat-grid-list{
-    width: 80%;
-    margin: auto;
 
-}

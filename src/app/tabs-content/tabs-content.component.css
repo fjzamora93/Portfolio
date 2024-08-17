@@ -1,19 +1,33 @@
 :host{
-    padding-bottom: 100px;
-}
-
-mat-tab{
-    height: 400px;
-}
-
-
-
-:host{
+    padding-bottom: 50px;
+    padding-top: 50px;
     display: block;
     width: 100%;
 }
 
 .img-proyecto{
-    width: 200px;
+    width: 400px;
+    float: left;
+    margin: 20px;
+}
+
+
+mat-tab{
+    
+}
+
+#div-tab{
+    height: 350px;
+}
+
+#div-tab p, #div-tab h2{
+    text-align: left;
+    margin-left: 30px 10% 30px 10px;
+}
+
+
+mat-tab-group{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 

@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
-<div class="container">
+
     <button (click)="previousImage()" class="nav-button left-arrow">
         <i class="fas fa-chevron-left"></i>
     </button>
@@ -15,20 +15,16 @@
         <i class="fas fa-chevron-right"></i>
     </button>
 
-    <div class="galeria">
-        <mat-grid-list cols="3" rowHeight="300px">
-            @for (image of imageGallery.slice(firstIndex, lastIndex); track image.src) {
-                <mat-grid-tile>
-                    <img [src]="image.src" [alt]="image.alt" (click)="openImage(image)">
-                </mat-grid-tile>
-            }
-        </mat-grid-list>
+    <div class="grid-container">
+
+        @for (exp of imageGallery.slice(firstIndex, lastIndex); track exp.imgUrl) {
+            <div class="grid-item">
+                <img [src]="exp.imgUrl" alt="{{ exp.title }}" (click)="openImage(exp)" id="img-exp">
+                <p> {{ exp.title }} </p>
+                <p style="font-size: 1em"> {{ exp.description }} </p>
+            </div>
+            
+        }  
     </div>
-</div>
 
 
-<mat-card class="custom-card">
-    <mat-card-content>
-      <p>{{ currentImage?.alt }}</p>
-    </mat-card-content>
-</mat-card>
