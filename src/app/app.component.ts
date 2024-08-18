@@ -12,6 +12,7 @@ import { TableListComponent } from "./table-list/table-list.component";
 import { StepFormComponent } from './step-form/step-form.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
 
 @Component({
   selector: 'app-root',
@@ -21,7 +22,7 @@ import { FooterComponent } from './footer/footer.component';
   imports: [HeaderComponent, 
    PostCreateComponent, PostListComponent, TabsContentComponent,
     GalleryComponent, GraphicsComponent, NavBarComponent, NavBarComponent, TabsContentComponent, TableListComponent,
-    StepFormComponent, ExperienceComponent, FooterComponent]
+    StepFormComponent, ExperienceComponent, FooterComponent, AboutComponent]
 })
 
 export class AppComponent {

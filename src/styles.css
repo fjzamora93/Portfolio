@@ -14,36 +14,8 @@ a:visited {
     text-decoration: none;
 }
 
-#about{
-    text-align:left;
-    display:flex;
-    height:auto;
-}
 
-#about img{
-    /*Generador de sombras online: https://www.cssmatic.com/es/box-shadow
-    Funcionamiento de la sombra:
-    box-shadow: ejeX ejeY desenfoque extensión color inset(opcional);
-    */
-    box-shadow: 0 0 10px #666;
-    float: right;
-    width: 300px;
-    height: 300px;
-    vertical-align:top;
-    margin: 50px 10px 50px 10px;
-    border-radius:20px;
-    max-width: 30vw;
-    max-height: 30vw;
 
-}
-
-#about div{
-    margin: 10px 10px 10px 5%;
-    min-width: 30vw;
-    max-width: 600px;
-    height: auto;
-    overflow: hide;
-}
 
 .barra{
     display: inline-block;
@@ -421,28 +393,6 @@ p, .texto{
 /* Cuando el ancho de la pantalla baje de 600px habrá ciertos cambios */
 @media (max-width: 600px) {
 
-    #about{
-        height:auto;
-    }
-
-    #about div{
-        width: 90%;
-        margin-left: 10px;
-        margin-right: 0px;
-    }
-
-  
-
-  
-    /*Vamos a ocultar la imagen para pantallas pequeñas y que solo quede el texto*/
-    #about img{
-        display:none;
-    }
-
-    .barra div {
-        width:70vw; 
-    }
-  
     .barra{
         align-self:right;
     }
@@ -522,11 +472,7 @@ p, .texto{
         margin-left: 15%;
     }
 
-    #about div{
-        width: 90%;
-        margin-left: 10vw;
-        margin-right: 10vw;
-    }
+
 
     section{
         
