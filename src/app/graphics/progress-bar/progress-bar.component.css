@@ -29,7 +29,7 @@ p{
   .progress-fill {
     width: 50%; /* Ajusta el ancho de la parte que representa el progreso (porcentaje de progreso) */
     height: 100%; /* Asegura que la altura coincida con la del contenedor */
-    background-color: rgb(132, 146, 192);
+    background-color: #7d55bd;
     transition: width 0.3s ease; /* Animación suave al cambiar el ancho */
   }
   
