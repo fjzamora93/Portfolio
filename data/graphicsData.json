@@ -1,0 +1,58 @@
+[
+
+    {
+        "_id": "1",
+        "percent": 90,
+        "title": "Python",
+        "category" : "language"
+    },
+    {
+        "_id": "2",
+        "percent": 75,
+        "title": "JavaScript & Typescript",
+        "category" : "language"
+    },
+    {
+        "_id": "3",
+        "percent": 60,
+        "title": "HTML & CSS",
+        "category" : "frontend"
+    },
+    {
+        "_id": "4",
+        "percent": 60,
+        "title": "Java",
+        "category" : "language"
+    },
+    {
+        "_id": "5",
+        "percent": 75,
+        "title": "Frameworks: Angular, Flet",
+        "category" : "frontend"
+    },
+    {
+        "_id": "6",
+        "percent": 80,
+        "title": "Frameworks: NodeJs, Express, SpringBoot, Django",
+        "category" : "backend"
+    },
+    {
+        "_id": "7",
+        "percent": 50,
+        "title": "BBDD: MongoDb, MySQL, Oracle",
+        "category" : "backend"
+    },
+    {
+        "_id": "8",
+        "percent": 60,
+        "title": "Data Science: Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn",
+        "category" : "backend"
+    }
+    ,
+    {
+        "_id": "9",
+        "percent": 60,
+        "title": "Adobe Ilustrator, Photoshop, Indesign",
+        "category" : "frontend"
+    }
+]

@@ -1,0 +1,51 @@
+[   
+    {   
+        "imgUrl": "img/logos/logo-unir.png",
+        "title": "Desarrollo de Aplicaciones Multiplataforma",
+        "center": "UNIR",
+        "date": "2023-2025"
+        
+    },
+    {   
+        "imgUrl": "img/logos/logo-unir.png",
+        "title": "Programa en Inteligencia Artificial y Data Science",
+        "center": "UNIR",
+        "date": "2024-2025"
+        
+    },
+    {
+        "imgUrl": "img/logos/udemy.png",
+        "title": "Angular - The Complete Guide (2024 Edition)",
+        "center": "Udemy",
+        "date": "2024"
+        
+    },
+    {
+        "imgUrl": "img/logos/udemy.png",
+        "title": "REST APIs with Node.js & Express",
+        "center": "Udemy",
+        "date": "2024"
+        
+    },    
+    {
+        "imgUrl": "img/logos/logo-cs50.jpg",
+        "title": "Web Programing with Django & JavaScript",
+        "center": "CS50 - Harvard",
+        "date": "2023"
+        
+    },
+    {
+        "imgUrl": "img/logos/Logo_UMA.png",
+        "title": "MBA (Master in Business Administration)",
+        "center": "Universidad de Málaga",
+        "date": "2016 -2017"
+        
+    },
+    {
+        "imgUrl": "img/logos/Logo_UMA.png",
+        "title": "Grado en Periodismo",
+        "center": "Universidad de Málaga",
+        "date": "2011 -2015"
+        
+    }
+]
