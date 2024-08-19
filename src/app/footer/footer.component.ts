@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
+    @Output() openingPolicy = new EventEmitter<boolean>();
+
+    onOpeningPolicy() {
+
+        this.openingPolicy.emit(true);
+    }
 
 }

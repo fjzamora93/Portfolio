@@ -1,4 +1,7 @@
 
+  a{
+    text-decoration: none;
+  }
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -10,10 +13,10 @@
     text-align: center;
 }
 
-.grid-item img {
+#img-exp {
     max-width: 100%;
     height: auto;
-    transition: transform 0.3s ease; /* Añade una transición a la imagen */
+    transition: transform 0.3s ease;
 }
 
 .grid-item p {
@@ -24,14 +27,20 @@
     position: relative; /* Necesario para que el movimiento sea relativo a su posición original */
 }
 
-.grid-item:hover p {
-    transform: translateY(-30px); /* Mueve el párrafo hacia arriba cuando se pasa el cursor por la imagen */   
+.grid-item:hover p, .grid-item:hover a {
+    transform: translateY(-30px); 
 }
 
 
-.grid-item:hover{
-    cursor: pointer;
-    cursor: url("../../../public/img/icons/target_50.png"), auto;
+.grid-item:hover, .grid-item:hover img {
+    cursor: url("../../../public/img/icons/target_50.png"), auto!important;
+
+}
+
+
+
+.grid-item:hover img {
+    filter: blur(2px); /* Difumina la imagen al hacer hover */
 }
 
 

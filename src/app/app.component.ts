@@ -13,18 +13,23 @@ import { StepFormComponent } from './step-form/step-form.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
+import { PrivacyPoliticComponent } from "./privacy-politic/privacy-politic.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [HeaderComponent, 
-   PostCreateComponent, PostListComponent, TabsContentComponent,
+  imports: [HeaderComponent,
+    PostCreateComponent, PostListComponent, TabsContentComponent,
     GalleryComponent, GraphicsComponent, NavBarComponent, NavBarComponent, TabsContentComponent, TableListComponent,
-    StepFormComponent, ExperienceComponent, FooterComponent, AboutComponent]
+    StepFormComponent, ExperienceComponent, FooterComponent, AboutComponent, PrivacyPoliticComponent]
 })
 
 export class AppComponent {
-    
+    isReading = false;
+
+    openingPolicy($event: any){
+        this.isReading = $event;
+    }
 }

@@ -1,6 +1,6 @@
 /* Estilos para el footer principal */
 footer {
-    background-color: #7d55bd;
+    background-color: #525252;
     color: white;
     padding: 40px 0;
     text-align: left;
@@ -54,6 +54,7 @@ footer {
     color: white;
     opacity: 0.5;
     transition: transform 0.3s ease;
+    filter: invert(100%);
 }
 
 .social-icon:hover {

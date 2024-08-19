@@ -1,4 +1,6 @@
-
+button{
+    margin-left: 20px;
+}
 #menu-movil{
     display: none;
 }
@@ -13,22 +15,29 @@ nav{
 
 @media (max-width: 700px) {
 
+    button:hover i{
+        color:#ffffff;
+        font-size: 1.5em;
+    }
+    
+    
+
     .menu-button-movil:hover{
         width: 2.3em;
         height: 2.3em;
-        background-color: rgb(111, 179, 196);
-        opacity: 0.8;
+        background-color: #7d55bd;
+        opacity: 1;
     }
    
+    #menu-desplegable-movil{
+        width: 300px;
+    }
     i{
         font-size: 1.5em;
         color: rgb(58, 53, 53);
     }
 
-    i:hover{
-        color: rgb(0, 0, 0);
-    }
-
+   
     #menu-movil{
         display: block;
 

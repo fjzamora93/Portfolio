@@ -1,10 +1,8 @@
 <nav id="menu-pc" color="primary" mat-stretch-tabs>
-    <button mat-button>
-        <a href="#about">Quién soy</a>
-    </button>
+
 
     <button mat-button>
-        <a href="#habilidades">Skills</a>
+        <a href="#habilidades">Habilidades</a>
     </button>
 
     <button mat-button>
@@ -16,7 +14,7 @@
     </button>
 
     <button mat-button>
-        <a href="#formación">Formación</a>
+        <a href="#formacion">Formación</a>
     </button>
 
     <button mat-button>
@@ -28,11 +26,10 @@
 
     <mat-menu #belowMenu="matMenu" yPosition="below">
         <button mat-menu-item>
-            <a href="doc/curriculo-fjzamora-1.pdf">CV PDF</a>
-        </button>
-
-        <button mat-menu-item>
-            <a href="doc/documentacion.pdf">Documentación</a>
+            <a href="doc/curriculo-fjzamora-1.pdf">
+                CV PDF
+                <i class="fas fa-download"></i>
+            </a>
         </button>
     </mat-menu>
 
@@ -42,30 +39,33 @@
 <nav id="menu-movil">
 
     <button mat-icon-button [matMenuTriggerFor]="menu" class="menu-button-movil">
-        <i class="material-icons">menu</i>
+        <i class="material-icons" >menu</i>
     </button>
 
-    <mat-menu #menu="matMenu">
-        <button mat-menu-item>
-          <mat-icon>dialpad</mat-icon>
-          <span><a href="#habilidades">Skills</a></span>
-        </button>
-        <button mat-menu-item>
-          <mat-icon>voicemail</mat-icon>
-          <span><a href="#proyectos">Proyectos</a></span>
-        </button>
-        <button mat-menu-item>
-            <i class="material-icons">school</i>
-            <span><a href="#formacion">Formación</a></span>
-        </button>
-        <button mat-menu-item>
-            <i class="material-icons">computer</i>
-            <span><a href="#experiencia">Experiencia</a></span>
-        </button>
-        <button mat-menu-item disabled>
-            <i class="material-icons">download_for_offline</i>
-            <span><a href="#descargas">Descargas</a></span>
-        </button>
+    <mat-menu #menu="matMenu" id="menu-desplegable-movil">
+        <div id="menu-desplegable-movil">
+            <button mat-menu-item>
+            <mat-icon>dialpad</mat-icon>
+            <span><a href="#habilidades">Habilidades</a></span>
+            </button>
+            <button mat-menu-item>
+            <mat-icon>voicemail</mat-icon>
+            <span><a href="#proyectos">Proyectos</a></span>
+            </button>
+            <button mat-menu-item>
+                <mat-icon>school</mat-icon>
+            
+                <span><a href="#formacion">Formación</a></span>
+            </button>
+            <button mat-menu-item>
+                <mat-icon>computer</mat-icon>
+                <span><a href="#experiencia">Experiencia</a></span>
+            </button>
+            <button mat-menu-item disabled>
+                <mat-icon>download_for_offline</mat-icon>
+                <span><a href="#descargas">Descargas</a></span>
+            </button>
+        </div>
     </mat-menu>
 
 </nav>

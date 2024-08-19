@@ -19,12 +19,52 @@
     font-size: 30px;
 }
 
-section{
-    padding: 0px 20% 0px 20%;
+h3{
+    line-height: 1.2em;
+    font-weight: 100;
+    color: white;
 }
+.proyectos {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    background-color: #525252;
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.proyectos div {
+    background-color: whitesmoke;
+    width: 95%;
+    padding: 10px;
+    
+}
+
+.proyectos div p {
+    display: inline;
+}
+
+.proyectos img {
+    float: right; /* Alinea la imagen a la derecha */
+    width: 70px;
+    height: 70px;
+    border: 5px outset rgb(123, 123, 123);
+    border-radius: 90%;
+    margin: 10px;
+    position: relative;
+    top: 5px;
+}
+
+
 
 @media (max-width: 700px) {
     
+    .proyectos {
+        width: 90%;
+        height: auto;
+    }
+   
     section{
         padding: 0px;
     }

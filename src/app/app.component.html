@@ -1,28 +1,30 @@
 
-<app-nav-bar/>
+@if (!isReading) {
 
+<app-nav-bar/>
 
 <app-header/>
 
 <body>
-    <app-about/>
+    <app-about id="about"/>
     
-    <app-gallery dataFile="projectsData"/>
+    <app-gallery dataFile="projectsData" id="proyectos"/>
 
-    <app-graphics/>
+    <app-graphics id="habilidades"/>
 
-    <app-experience dataFile="experienceData"/>
+    <app-experience dataFile="experienceData" id="experiencia"/>
 
-    
+    <app-table-list dataFile="formationData" id="formacion"/>
 
-    <app-table-list dataFile="formationData"/>
-
-    
-
-    <section class="dibujo-hello">
+    <section class="dibujo-hello" id="contacto">
         <app-step-form/>
     </section>
 </body>
 
 
-<app-footer/>
+}@else {
+    <app-privacy-politic [(reading)]="isReading"/>
+}
+
+
+<app-footer (openingPolicy)="openingPolicy($event)"/>
