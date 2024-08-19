@@ -2,33 +2,36 @@
 
 
     <button mat-button>
-        <a href="#habilidades">Habilidades</a>
+        
+        <a href="#habilidades"><p>Habilidades</p></a>
     </button>
 
     <button mat-button>
-        <a href="#proyectos">Proyectos</a>
+        <a href="#proyectos"><p>Proyectos</p></a>
     </button>
 
     <button mat-button>
-        <a href="#experiencia">Experiencia</a>
+        <a href="#experiencia"><p>Experiencia</p></a>
     </button>
 
     <button mat-button>
-        <a href="#formacion">Formación</a>
+        <a href="#formacion"><p>Formación</p></a>
     </button>
 
     <button mat-button>
-        <a href="#contacto">Contacto</a>
+        <a href="#contacto"><p>Contacto</p></a>
     </button>
 
 
-    <button mat-button [matMenuTriggerFor]="belowMenu">Descargas</button>
+    <button mat-button [matMenuTriggerFor]="belowMenu">
+        <a href="#"><p>Descargas</p></a>
+    </button>
 
     <mat-menu #belowMenu="matMenu" yPosition="below">
         <button mat-menu-item>
-            <a href="doc/curriculo-fjzamora-1.pdf">
-                CV PDF
-                <i class="fas fa-download"></i>
+            <a href="data/curriculo-fjzamora-1.pdf" target="_blank">
+                <p><i class="fas fa-download"></i>Curriculum PDF </p>
+                
             </a>
         </button>
     </mat-menu>
@@ -61,9 +64,9 @@
                 <mat-icon>computer</mat-icon>
                 <span><a href="#experiencia">Experiencia</a></span>
             </button>
-            <button mat-menu-item disabled>
-                <mat-icon>download_for_offline</mat-icon>
-                <span><a href="#descargas">Descargas</a></span>
+            <button mat-menu-item>
+                <mat-icon>download</mat-icon>
+                <span><a href="#experiencia">Descargar CV</a></span>
             </button>
         </div>
     </mat-menu>
