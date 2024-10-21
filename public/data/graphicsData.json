@@ -27,13 +27,13 @@
     {
         "_id": "5",
         "percent": 75,
-        "title": "Frameworks: Angular, Flet",
+        "title": "Angular",
         "category" : "frontend"
     },
     {
         "_id": "6",
         "percent": 80,
-        "title": "Frameworks: NodeJs, Express, SpringBoot, Django",
+        "title": "NodeJs, Express, Django",
         "category" : "backend"
     },
     {
@@ -45,7 +45,7 @@
     {
         "_id": "8",
         "percent": 60,
-        "title": "Data Science: Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn",
+        "title": "Data Science: Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Keras",
         "category" : "backend"
     }
     ,
