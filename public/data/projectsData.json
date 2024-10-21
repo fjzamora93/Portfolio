@@ -8,12 +8,12 @@
         "url": "https://rolgenerator-production.up.railway.app/"
     },
     {
-        "title": "Marilo's Kitchen",
+        "title": "Maldita Cocina",
         "center": "Aplicación web para la gestión de recetas online",
         "description": "Comparte, edita y comenta recetas de cocina con otros usuarios.",
         "date": "2024",
         "imgUrl": "img/kitchen-banner.jpg",
-        "url": "https://web-production-90fa.up.railway.app/"
+        "url": "https://maldita-cocina.up.railway.app/"
     },
     {
         "title": "LaPAB Landing Page",
@@ -21,7 +21,7 @@
         "description": "Landing page oficial del Laboratorio de Procesos Acoplados Biofísicos.",
         "date": "2024",
         "imgUrl": "img/lapab-banner.jpg",
-        "url": "https://fjzamora93.github.io/lapab/"
+        "url": "https://lapab.up.railway.app/"
     },{
         "title": "Rol Generator App",
         "center": "Personal",
@@ -31,12 +31,12 @@
         "url": "https://rolgenerator-production.up.railway.app/"
     },
     {
-        "title": "Marilo's Kitchen",
+        "title": "Maldita Cocina",
         "center": "Aplicación web para la gestión de recetas online",
         "description": "Comparte, edita y comenta recetas de cocina con otros usuarios.",
         "date": "2024",
         "imgUrl": "img/kitchen-banner.jpg",
-        "url": "https://web-production-90fa.up.railway.app/"
+        "url": "https://maldita-cocina.up.railway.app/"
     },
     {
         "title": "LaPAB Landing Page",
@@ -44,6 +44,6 @@
         "description": "Landing page oficial del Laboratorio de Procesos Acoplados Biofísicos.",
         "date": "2024",
         "imgUrl": "img/lapab-banner.jpg",
-        "url": "https://fjzamora93.github.io/lapab/"
+        "url": "https://lapab.up.railway.app/"
     }
 ]
