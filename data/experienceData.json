@@ -1,11 +1,11 @@
 [
     {
         "title": "Web Designer & Developer",
-        "subtitle": "Diseño de aplicación web y portal digital para el laboratorio",
+        "subtitle": "Análisis de datos y diseño web",
         "company": "Laboratorio de Procesos Acoplados Biofísicos (LaPab)",
         "location": "Valdivia, Chile",
         "date": "2024/06 - 2025/01",
-        "description": "Diseño web para el Laboratorio de Procesos Acoplados Biofísicos en la Universidad Austral de Chile utilizando Angular y Express",
+        "description": "Colaboración con el Laboratorio de Procesos Acoplados Biofísicos en la Universidad Austral de Chile. Análisis, preprocesamiento y visualización de datos. Diseño web y desarrollo de la página oficial del laboratorio.",
         "imgUrl": "img/logos/logo-lapab-black.png"
     },
     {
