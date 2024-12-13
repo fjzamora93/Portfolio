@@ -1,11 +1,11 @@
 [
     {
         "title": "Web Designer & Developer",
-        "subtitle": "Análisis de datos y diseño web",
+        "subtitle": "Análisis de datos y desarrollo web",
         "company": "Laboratorio de Procesos Acoplados Biofísicos (LaPab)",
         "location": "Valdivia, Chile",
-        "date": "2024/06 - 2025/01",
-        "description": "Colaboración con el Laboratorio de Procesos Acoplados Biofísicos en la Universidad Austral de Chile. Análisis, preprocesamiento y visualización de datos. Diseño web y desarrollo de la página oficial del laboratorio.",
+        "date": "2024/06 - actualidad",
+        "description": "Pasantía en el Laboratorio de Procesos Acoplados Biofísicos en la Universidad Austral de Chile. Implementación modelo de IA para detección de pingüinos a partir de imágenes de dron. Análisis, preprocesamiento y visualización de datos. Diseño web y desarrollo de la página oficial del laboratorio y el proyecto de ciencia ciudadana Counting Penguins.",
         "imgUrl": "img/logos/logo-lapab-black.png"
     },
     {
