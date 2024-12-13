@@ -6,18 +6,14 @@
         "title": "Python",
         "category" : "language"
     },
+   
     {
         "_id": "2",
         "percent": 75,
         "title": "JavaScript & Typescript",
         "category" : "language"
     },
-    {
-        "_id": "3",
-        "percent": 60,
-        "title": "HTML & CSS",
-        "category" : "frontend"
-    },
+   
     {
         "_id": "4",
         "percent": 60,
@@ -28,6 +24,12 @@
         "_id": "5",
         "percent": 75,
         "title": "Angular",
+        "category" : "frontend"
+    },
+    {
+        "_id": "3",
+        "percent": 60,
+        "title": "HTML & CSS",
         "category" : "frontend"
     },
     {
@@ -45,14 +47,14 @@
     {
         "_id": "8",
         "percent": 60,
-        "title": "Data Science: Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Keras",
+        "title": "Data Science:TensorFlow, Pytorch, Pandas, Matplotlib, Scikit-learn",
         "category" : "backend"
     }
     ,
     {
         "_id": "9",
-        "percent": 60,
-        "title": "Adobe Ilustrator, Photoshop, Indesign",
+        "percent": 30,
+        "title": "Jetpack Compose",
         "category" : "frontend"
     }
 ]
