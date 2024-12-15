@@ -1,4 +1,15 @@
 
+<style>
+    .logo-container img {
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    margin: 0 20px;
+    }
+    
+
+</style>
+
 <app-portrait/>
 
 
@@ -15,16 +26,26 @@
         <i class="fas fa-chevron-right"></i>
     </button>
 
+ 
+    <div class="logo-container">
+        <img src="img/logos/django-logo.svg" alt="django">
+        <img src="img/logos/angular-logo.png" alt="angular">
+        <img src="img/logos/node-logo.jpg" alt="node">
+        <img src="img/logos/mongodb-logo.png" alt="mongodb">
+    </div>
+
+    
     <div class="grid-container">
 
         @for (exp of imageGallery.slice(firstIndex, lastIndex); track exp.imgUrl) {
+
             <div class="grid-item">
                 <a href="{{exp.url}}" target="_blank">
                     <img [src]="exp.imgUrl" alt="{{ exp.title }}" (click)="openImage(exp)" id="img-exp">
                 </a>
                 <p> {{ exp.title }} </p>
                 <p style="font-size: 1em"> {{ exp.description }} </p>
-                
+
             </div>
             
         }  
