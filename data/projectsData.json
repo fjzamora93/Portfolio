@@ -1,10 +1,11 @@
 [
     {
-        "title": "Counting Penguins",
+        "title": "Va de Pingüinos",
         "center": "Personal",
         "description": "Proyecto de ciencia ciudadana para el recuento de pingüinos a partir de imágenes de dron.",
         "date": "2024",
         "imgUrl": "img/va-de-pinguinos.jpg",
+        "framework": "img/logos/android-logo.png",
         "url": "https://cienciaciudadana-pinguinos.up.railway.app/"
     },
 
