@@ -9,9 +9,9 @@
     },
 
     {
-        "title": "LaPAB - Laboratorio de Procesos Acoplados Biofísicos",
-        "center": "LaPAB: Laboratorio de Procesos Acoplados Biofísicos",
-        "description": "Landing page oficial del Laboratorio de Procesos Acoplados Biofísicos.",
+        "title": "Laboratorio de Procesos Acoplados Biofísicos",
+        "center": "Laboratorio de Procesos Acoplados Biofísicos",
+        "description": "Página oficial del Laboratorio de Procesos Acoplados Biofísicos (LaPab).",
         "date": "2024",
         "imgUrl": "img/logo-lapab.jpg",
         "url": "https://lapab.up.railway.app/"
@@ -19,7 +19,7 @@
     {
         "title": "Maldita Cocina",
         "center": "Aplicación web para la gestión de recetas online",
-        "description": "Comparte, edita y comenta recetas de cocina con otros usuarios.",
+        "description": "Comparte, edita y guarda recetas de cocina con otros usuarios.",
         "date": "2024",
         "imgUrl": "img/kitchen-banner.jpg",
         "url": "https://maldita-cocina.up.railway.app/"
