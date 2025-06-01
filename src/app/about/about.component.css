@@ -8,6 +8,19 @@ a{
     color:#7d55bd
 }
 
+
+#about, .bloque-blanco {
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  padding: 16px;
+}
+
+.tags {
+  white-space: nowrap;
+}
 .bloque-purpura{
     background-color: #7d55bd;
     display:flex;
@@ -20,11 +33,7 @@ a{
     color: white;
 }
 
-h2 {
-    font-weight: 100;
-    font-size: 2.5em;
-    line-height: 1.2em;
-}
+
 
 h3 {
     font-size: 1.5em;
@@ -64,7 +73,7 @@ h2, h3, p {
 /* Ajustes para pantallas grandes */
 @media (min-width: 900px) {
     #about {
-        grid-template-columns: 40% 20% 30%;
+        grid-template-columns: 40% 80%;
         align-items: start;
     }
 

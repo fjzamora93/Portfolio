@@ -1,10 +1,18 @@
-[
+[{
+        "title": "Mobile and Android Developer",
+        "subtitle": "Desarrollo de aplicaciones móviles y Android",
+        "company": "Eurokaizen Group",
+        "location": "Málaga, España",
+        "date": "2025/03 - actualidad",
+        "description": "Desarrollo de aplicaciones móviles multiplataforma utilizando Flutter y Dart. Actualización de librerías, refactorización de código, debugging e implementación de nuevas características en cada proyecto. Diseño e implementación de agentes inteligentes mediante n8n y modelos de lenguaje (LLMs).",
+        "imgUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQHqtW-0XXAaRA/company-logo_200_200/company-logo_200_200/0/1655742777040/euro_kaizen_sl_logo?e=1754524800&v=beta&t=tFjhUy4sbWPyVMUuDKRlYs6SIdGdhxNMU-pz03Sh7QU"
+    },
     {
-        "title": "App Developer & Data Analyst",
+        "title": "Web Developer & Data Analyst",
         "subtitle": "Análisis de datos y desarrollo web",
         "company": "Laboratorio de Procesos Acoplados Biofísicos (LaPab)",
         "location": "Valdivia, Chile",
-        "date": "2024/06 - actualidad",
+        "date": "2024/06 - 2025/02",
         "description": "Implementación modelo de IA para detección de pingüinos a partir de imágenes de dron. Análisis, preprocesamiento y visualización de datos. Diseño web y desarrollo de la página oficial del laboratorio y el proyecto de ciencia ciudadana Counting Penguins.",
         "imgUrl": "img/logos/logo-lapab-black.png"
     },
