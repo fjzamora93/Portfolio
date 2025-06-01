@@ -6,7 +6,12 @@
         "title": "Python",
         "category" : "language"
     },
-   
+   {
+        "_id": "10",
+        "percent": 75,
+        "title": "Flutter",
+        "category" : "language"
+    },
     {
         "_id": "2",
         "percent": 75,
@@ -20,41 +25,64 @@
         "title": "Java",
         "category" : "language"
     },
+   
+ 
+
+
+  
+
     {
-        "_id": "5",
-        "percent": 75,
-        "title": "Angular",
-        "category" : "frontend"
-    },
-    {
-        "_id": "3",
-        "percent": 60,
-        "title": "HTML & CSS",
-        "category" : "frontend"
-    },
-    {
-        "_id": "6",
+        "_id": "11",
         "percent": 80,
-        "title": "NodeJs, Express, Django",
+        "title": "Spring Boot",
         "category" : "backend"
     },
+
+      {
+        "_id": "6",
+        "percent": 60,
+        "title": "Django",
+        "category" : "backend"
+    },
+
     {
         "_id": "7",
         "percent": 50,
-        "title": "BBDD: MongoDb, MySQL, Oracle",
+        "title": "BBDD: MongoDb, POstgreSQL, Firebase",
         "category" : "backend"
     },
     {
         "_id": "8",
         "percent": 60,
-        "title": "Data Science:TensorFlow, Pytorch, Pandas, Matplotlib, Scikit-learn",
+        "title": "Data Science:TensorFlow, Pytorch, Scikit-learn, n8n",
         "category" : "backend"
     }
     ,
     {
         "_id": "9",
-        "percent": 30,
-        "title": "Jetpack Compose",
+        "percent": 90,
+        "title": "Kotlin & Jetpack Compose",
+        "category" : "frontend"
+    },
+
+     {
+        "_id": "5",
+        "percent": 60,
+        "title": "Angular",
+        "category" : "frontend"
+    },
+
+       {
+        "_id": "3",
+        "percent": 50,
+        "title": "HTML & CSS",
+        "category" : "frontend"
+    },
+
+    {
+        "_id": "12",
+        "percent": 70,
+        "title": "Dart & Flutter",
         "category" : "frontend"
     }
 ]
